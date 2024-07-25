@@ -31,8 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #f8bbd0; /* Light pink color */
-    color: #333; /* Adjust text color if needed for contrast */
 }
 
 ol, ul {
@@ -85,13 +83,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #f8bbd0; /* Light pink color */
-    	color: #333; /* Adjust text color if needed for contrast */
+		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		
+		color: #888;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1982,21 +1979,54 @@ input, select, textarea {
 
 /* Item */
 
-	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-		margin-bottom: 40px;
-	}
+.container {
+    display: flex; /* Use flexbox to align items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center align items horizontally */
+}
 
-		.item header {
-			background: #fff;
-			margin: 0;
-			padding: 1em 0 1em 0;
-			font-size: 0.8em;
-		}
+.item {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    width: 300px; /* Fixed width for consistency */
+    min-height: 250px; /* Minimum height to ensure visibility */
+    overflow: hidden; /* Hide overflow content */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+}
 
-			.item header h3 {
-				font-size: 1em;
-			}
+.item:hover {
+    background-color: #f0f0f0; /* Light grey background color on hover */
+}
+
+.item header {
+    background: #acb9ec;
+    margin: 0;
+    padding: 1em; /* Padding to give space around header content */
+    font-size: 0.9em; /* Slightly larger font size for better readability */
+    color: white; /* Ensure text is readable */
+    transition: background-color 0.3s ease; /* Smooth transition for header background color change */
+}
+
+.item:hover header {
+    background: #de92bd; /* Change header background color on hover */
+}
+
+.item header h3 {
+    font-size: 1.1em; /* Slightly larger font size for better visibility */
+    margin: 0; /* Remove default margin */
+}
+
+.item-content {
+    flex: 1; /* Allow content to take available space */
+    padding: 1em; /* Add padding inside the content area */
+    box-sizing: border-box; /* Include padding in the element’s total width and height */
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+
 
 /* Icons */
 
@@ -2251,7 +2281,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("images\background.png");
 			}
 
 			#main > section.two {
@@ -2648,8 +2678,8 @@ input, select, textarea {
 }
 
 .icons .icon img {
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
     vertical-align: middle;
 }
 
@@ -2660,9 +2690,4 @@ input, select, textarea {
 
 .fa-envelope:before {
     content: "\f0e0";
-}
-body {
-    background-color: #f8bbd0; /* Light pink color */
-    color: #333; /* Adjust text color if needed for contrast */
-    font-family: Arial, sans-serif; /* Optional: change font for consistency */
 }
