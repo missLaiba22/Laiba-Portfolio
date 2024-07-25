@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #f8bbd0; /* Light pink color */
+    color: #333; /* Adjust text color if needed for contrast */
 }
 
 ol, ul {
@@ -83,12 +85,13 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background-color: #f8bbd0; /* Light pink color */
+    	color: #333; /* Adjust text color if needed for contrast */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2631,3 +2634,35 @@ input, select, textarea {
 				}
 
 	}
+	/* General icon styles */
+.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icons .icon img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+/* FontAwesome existing icons */
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+body {
+    background-color: #f8bbd0; /* Light pink color */
+    color: #333; /* Adjust text color if needed for contrast */
+    font-family: Arial, sans-serif; /* Optional: change font for consistency */
+}
