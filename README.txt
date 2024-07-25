@@ -1,40 +1,27 @@
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Portfolio Project 🎨
 
+Welcome to my portfolio project! This project showcases a collection of my work, including web development and design skills. Each item in the portfolio represents a different project, with a consistent layout and interactive features.
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+## Features ✨
 
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+- **Consistent Layout**: Each project box has a fixed width and minimum height to maintain uniformity.
+- **Interactive Design**: Hover effects change the background color of the project boxes for a dynamic user experience.
+- **Responsive Design**: The portfolio adapts to different screen sizes, ensuring that content is displayed effectively on various devices.
 
-http://ineedchemicalx.deviantart.com/
+## Installation 🚀
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/missLaiba22/Laiba-portfolio.git
+   ```
 
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Laiba-portfolio
+   ```
 
-(* = Not included)
+3. **Open `index.html`** in your web browser to view the portfolio.
 
-AJ
-aj@lkn.io | @ajlkn
+## License 📜
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
