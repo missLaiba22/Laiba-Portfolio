@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #412833;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1966,7 +1966,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #2a5a58;
 		}
 
 		input[type="button"]:active,
@@ -2002,7 +2002,7 @@ input, select, textarea {
 }
 
 .item header {
-    background: #acb9ec;
+    background: #7181be;
     margin: 0;
     padding: 1em; /* Padding to give space around header content */
     font-size: 0.9em; /* Slightly larger font size for better readability */
